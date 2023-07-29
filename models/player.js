@@ -15,14 +15,15 @@ const playerSChema = new Schema({
     type: String,
     required: true,
   },
+
   image: {
     type: String,
   },
   position: {
     type: String,
   },
-  memberNumber: {
-    type: String,
+  member_num: {
+    type: Number,
   },
   height: {
     type: String,
@@ -31,11 +32,11 @@ const playerSChema = new Schema({
     type: String,
 
   },
-  educationalBackground: {
+  educational_bkgd: {
     type: String,
   },
   birthday: {
-    type: String,
+    type: String
   }
 })
 
