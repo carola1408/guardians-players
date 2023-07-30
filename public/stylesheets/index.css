@@ -3,21 +3,23 @@ header {
 }
 
 .navbar .navbar-brand {
-  color: #025;
+  color: #4592af;
 }
 
 .navbar .navbar-brand:hover {
   color: #226089;
 }
 
+
 .banner {
   position: relative;
   z-index: -1;
   margin: -5px;
-  height: 360px;
-  background: #dddddd center center url('https: //www.fubonguardians.com/UploadFolder/file/index/1dafc664-1b1c-439f-b5db-613b51192c2d.png');
-  background-size: cover;
-  filter: blur(3px);
+  height: 500px;
+  background: url(https://www.fubonguardians.com/UploadFolder/file/index/1dafc664-1b1c-439f-b5db-613b51192c2d.png);
+  background-size: 100% 100%;
+
+  background-position: center;
 }
 
 .search-bar .search-bar-outer {
@@ -32,7 +34,7 @@ header {
 }
 
 .search-bar .search-bar-inner h4 {
-  color: #9b4b4b;
+  color: #226089;
 }
 
 .form-control::placeholder {
@@ -41,7 +43,7 @@ header {
 }
 
 .btn-major {
-  background-color: #9b4b4b;
+  background-color: #4592af;
   color: white;
 }
 
@@ -64,12 +66,12 @@ header {
   white-space: nowrap;
 }
 
-.restaurant-category {
+.player-category {
   color: #666666;
   font-size: 0.8rem;
 }
 
-.restaurant-show-title {
+.player-show-title {
   position: relative;
   top: -100px;
   color: white;
@@ -87,7 +89,7 @@ header {
 
 @media screen and (max-width: 768px) {
 
-  .restaurant-show-title {
+  .player-show-title {
     font-size: 2rem;
   }
 }
