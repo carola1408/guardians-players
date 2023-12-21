@@ -1,13 +1,18 @@
 header {
   overflow: hidden;
+
 }
 
 .navbar .navbar-brand {
-  color: #4592af;
+  color: white;
 }
 
 .navbar .navbar-brand:hover {
   color: #226089;
+}
+
+.bg-custom {
+  background-color: #003366 !important;
 }
 
 
@@ -57,13 +62,14 @@ header {
 }
 
 .card img {
-  height: 180px;
+  height: 300px;
 }
 
-.card-title {
+.card-name {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+
 }
 
 .player-category {
@@ -71,10 +77,10 @@ header {
   font-size: 0.8rem;
 }
 
-.player-show-title {
+.player-show-name {
   position: relative;
   top: -100px;
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   font-size: 3rem;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -99,5 +105,38 @@ header {
   .card img {
     height: auto;
   }
+
+}
+
+.card-number {
+  color: rgb(0, 19, 128);
+
+}
+
+.card-name {
+  color: rgb(4, 17, 102);
+
+}
+
+.custom-dropdown-btn {
+  background-color: #004b90;
+  color: white;
+
+}
+
+.btn-major-custom {
+  color: #fff;
+  background-color: #004b90;
+  border-color: #004b90;
+}
+
+.btn-major-custom:hover {
+  background-color: #003366;
+  border-color: #003366;
+}
+
+.text-custom {
+  color: #002255 !important;
+  /* 使用 !important 確保這個樣式優先於其他樣式 */
 
 }

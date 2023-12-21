@@ -1,0 +1,21 @@
+<div class="rot mt-5">
+  <div class="col-md-6 m-auto">
+    <div class="card card-body">
+      <h1 class="text-center mt-3 text-custom">會員登入</h1>
+      {{> message}}
+      <form action="/users/login" method="post">
+        <div class="mb-3">
+          <label for="email" class="mb-2 text-custom">會員帳號</label>
+          <input type="email" name="email" id="email" class="form-control" placeholder="Enter Email">
+        </div>
+        <div class="mb-3">
+          <label for="password" class="mb-2 text-custom">Password</label>
+          <input type="password" name="password" id="email" class="form-control" placeholder="Enter Password">
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">登入</button>
+        <a href="/auth/facebook" class="btn btn-primary btn-block"><i class="fa-brands fa-facebook"></i>Facebook</a>
+      </form>
+      <p class="lead mt-4 text-custom">尚未成為會員? <a href="/users/register">加入會員</a></p>
+    </div>
+  </div>
+</div>

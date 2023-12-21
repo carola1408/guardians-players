@@ -1,0 +1,820 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "name": "詹智堯",
+      "name_en": "CHAN, CHIH-YAO",
+      "category": "教練",
+      "position": "一軍外野教練",
+      "member_num": 8,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/128d1791-7a12-43ee-b07f-6f6880b8b9a6.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/357b6b79-9432-4b71-8f99-fe1d6ec28d58.jpg"
+      },
+      "height": "178(CM)",
+      "weight": "83(KG)",
+      "educational_bkgd": "臺灣體院",
+      "birthday": "1983-01-02"
+    },
+    {
+      "id": 2,
+      "name": "郭勇志",
+      "name_en": "KUO, YONG-ZHI",
+      "category": "教練",
+      "position": "一軍牛棚教練",
+      "member_num": 40,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/d5531600-44d1-46d3-b484-e6805287f715.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/82818629-7916-45f8-af17-61419fab41cf.jpg"
+      },
+      "height": "183(CM)",
+      "weight": "93(KG)",
+      "educational_bkgd": "",
+      "birthday": "1977-09-24"
+    },
+    {
+      "id": 3,
+      "name": "羅曼",
+      "name_en": "Orlando Roman",
+      "category": "教練",
+      "position": "一軍投手教練",
+      "member_num": 41,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/ca7a6bb8-96bd-4481-b84d-31d109852b5a.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/a1b410a3-a102-4a63-b1a0-aa28fd4ad712.jpg"
+      },
+      "height": "183(CM)",
+      "weight": "109(KG)",
+      "educational_bkgd": "Indian Hills Community College-Centerville",
+      "birthday": "1978-11-28"
+    },
+    {
+      "id": 4,
+      "name": "垣內哲也",
+      "name_en": "TETSUYA KAKIUCHI",
+      "category": "教練",
+      "position": "一軍打擊教練",
+      "member_num": 72,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/af35ec24-3a62-4715-8624-05a6402490cf.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/7736ef5e-df0f-4299-a261-b0fe711b965c.jpg"
+      },
+      "height": "186(CM)",
+      "weight": "90(KG)",
+      "educational_bkgd": "",
+      "birthday": "1970-06-06"
+    },
+    {
+      "id": 5,
+      "name": "劉家豪",
+      "name_en": "LIU, CHIA-HAO",
+      "category": "教練",
+      "position": "一軍捕手教練",
+      "member_num": 63,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/40844421-cfa8-4944-8a0f-b14294e0d957.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/7c52f8cb-0b3c-4d6d-82f4-f9ee595ff5b7.jpg"
+      },
+      "height": "172(CM)",
+      "weight": "79(KG)",
+      "educational_bkgd": "桃園農工",
+      "birthday": "1984-05-28"
+    },
+    {
+      "id": 6,
+      "name": "施金典",
+      "name_en": "SHIH, CHIN-TIEN",
+      "category": "教練",
+      "position": "一軍內野教練",
+      "member_num": 68,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/365e8b6d-5d8e-423e-be5a-f9a6b2511ffe.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/378ac91f-4b52-47ad-8093-9b8342d4d3a7.jpg"
+      },
+      "height": "185(CM)",
+      "weight": "78(KG)",
+      "educational_bkgd": "臺灣體大",
+      "birthday": "1980-08-01"
+    },
+    {
+      "id": 7,
+      "name": "丘昌榮",
+      "name_en": "CHIU, CHANG-JUNG",
+      "category": "教練",
+      "position": "一軍總教練",
+      "member_num": 91,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/e4639006-6f86-471a-bc32-adee50b01a66.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/2a0cf45b-88de-4e22-8203-1fde93a51c45.jpg"
+      },
+      "height": "186(CM)",
+      "weight": "83(KG)",
+      "educational_bkgd": "文化大學",
+      "birthday": "1972-10-30"
+    },
+    {
+      "id": 8,
+      "name": "江國豪",
+      "name_en": "CHIANG, KUO-HAO",
+      "category": "投手",
+      "position": "投手",
+      "member_num": 12,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/88ae820c-8bd2-4852-8a5b-133da94ee7cd.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/8f33b5ee-b961-4f72-88a1-b39fb3093f51.jpg"
+      },
+      "height": "178(CM)",
+      "weight": "82(KG)",
+      "educational_bkgd": "臺灣體大",
+      "birthday": "1997-12-29"
+    },
+    {
+      "id": 9,
+      "name": "肯特",
+      "name_en": "MATTHEW KENT",
+      "category": "投手",
+      "position": "投手",
+      "member_num": 15,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/1bff0577-291d-43d5-b128-a71ef21c8907.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/753e865e-6042-406f-8dbc-bc5c1b27e1fb.jpg"
+      },
+      "height": "183(CM)",
+      "weight": "81(KG)",
+      "educational_bkgd": "Texas A＆M University",
+      "birthday": "1992-09-13"
+    },
+    {
+      "id": 10,
+      "name": "郭俊麟",
+      "name_en": "KUO, CHUN-LIN",
+      "category": "投手",
+      "position": "投手",
+      "member_num": 18,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/e32f2f9f-8109-4af9-84c2-f82f7822d293.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/7fa6810b-cf37-4524-a254-7b703496fca8.jpg"
+      },
+      "height": "176(CM)",
+      "weight": "78(KG)",
+      "educational_bkgd": "臺灣體大",
+      "birthday": "1992-02-02"
+    },
+    {
+      "id": 11,
+      "name": "藍愷青",
+      "name_en": "LAN, KAI-CHING",
+      "category": "投手",
+      "position": "投手",
+      "member_num": 21,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/27f50082-807b-4564-a5fb-3019c323a8b2.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/41603179-740a-465a-bf17-95b25b948cd8.jpg"
+      },
+      "height": "177(CM)",
+      "weight": "72(KG)",
+      "educational_bkgd": "國立體大",
+      "birthday": "1998-09-06"
+    },
+    {
+      "id": 12,
+      "name": "賴智垣",
+      "name_en": "LAI,CHIH-YUAN",
+      "category": "投手",
+      "position": "投手",
+      "member_num": 25,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/e927f340-1ba6-4a08-bd51-af908f191a82.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/ab6df58f-e412-4853-bdf5-4246977c1220.jpg"
+      },
+      "height": "178(CM)",
+      "weight": "90(KG)",
+      "educational_bkgd": "臺灣體大",
+      "birthday": "1997-02-28"
+    },
+    {
+      "id": 13,
+      "name": "王尉永",
+      "name_en": "WANG, WEI-YONG",
+      "category": "投手",
+      "position": "投手",
+      "member_num": 34,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/36c1d39e-057e-4531-a757-d57019943a17",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/6908d189-bd65-43c4-bb01-e4a6b98014c0.jpg"
+      },
+      "height": "180(CM)",
+      "weight": "79(KG)",
+      "educational_bkgd": "文化大學",
+      "birthday": "1995-09-18"
+    },
+    {
+      "id": 14,
+      "name": "伍茲",
+      "name_en": "Woods Jr. Stephen Hugo",
+      "category": "投手",
+      "position": "投手",
+      "member_num": 23,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/f7a61cd8-3775-44ab-9fe2-b8971a1cbd53.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/08836054-5898-49c1-82d6-06d8ab926ded.jpg"
+      },
+      "height": "185(CM)",
+      "weight": "92(KG)",
+      "educational_bkgd": "",
+      "birthday": "1995-06-10"
+    },
+    {
+      "id": 15,
+      "name": "范玉禹",
+      "name_en": "FAN, YU-YU",
+      "category": "投手",
+      "position": "投手",
+      "member_num": 47,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/e4e22402-e965-461e-aa47-19091ff6f914.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/84bba779-b5ea-413f-aebb-1db3feb1babc.jpg"
+      },
+      "height": "195(CM)",
+      "weight": "99(KG)",
+      "educational_bkgd": "嘉藥科大",
+      "birthday": "1995-04-27"
+    },
+    {
+      "id": 16,
+      "name": "岳少華",
+      "name_en": "YUEH, SHAO-HUA",
+      "category": "投手",
+      "position": "投手",
+      "member_num": "48",
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/ba674a17-fe77-4fbc-9158-b8c8fc0851c3.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/6b2a2d73-ca97-4dc1-8ccd-7f025101ae79.jpg"
+      },
+      "height": "179(CM)",
+      "weight": "82(KG)",
+      "educational_bkgd": "開南大學",
+      "birthday": "1999-06-01"
+    },
+    {
+      "id": 17,
+      "name": "李建勳",
+      "name_en": "LEE, CHIEN-HSUN",
+      "category": "投手",
+      "position": "投手",
+      "member_num": 54,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/8eb45598-0514-48aa-aa6b-4dd9a6994329.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/3ffdb69a-0596-49fa-8655-f13a3095d6ef.jpg"
+      },
+      "height": "193(CM)",
+      "weight": "107(KG)",
+      "educational_bkgd": "高苑科大",
+      "birthday": "1996-09-08"
+    },
+    {
+      "id": 18,
+      "name": "歐書誠",
+      "name_en": "OU, SU-CHEN",
+      "category": "投手",
+      "position": "投手",
+      "member_num": 57,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/e9620957-aff6-4a0d-ab26-d061dfebac86.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/9b2df873-b474-4a65-9533-4772ce3cd61b.jpg"
+      },
+      "height": "181(CM)",
+      "weight": "78(KG)",
+      "educational_bkgd": "長榮大學",
+      "birthday": "1993-02-11"
+    },
+    {
+      "id": 19,
+      "name": "陳冠勳",
+      "name_en": "CHEN,GUAN-XUN",
+      "category": "投手",
+      "position": "投手",
+      "member_num": 59,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/4e7ee4c5-0dcd-47e2-98b3-1c49cbbadf49.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/7cb557e8-3cd0-428e-8607-079dd740de13.jpg"
+      },
+      "height": "178(CM)",
+      "weight": "77(KG)",
+      "educational_bkgd": "開南大學",
+      "birthday": "1998-12-23"
+    },
+    {
+      "id": 20,
+      "name": "曾峻岳",
+      "name_en": "TSENG, JYUN-YUE",
+      "category": "投手",
+      "position": "投手",
+      "member_num": 60,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/bfa4fd24-1baa-4598-b410-758eeb5eb682.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/e80fc6f3-43fe-4852-8866-28bdb059228f.jpg"
+      },
+      "height": "175(CM)",
+      "weight": "88(KG)",
+      "educational_bkgd": "西苑高中",
+      "birthday": "2001-11-07"
+    },
+    {
+      "id": 21,
+      "name": "李子強",
+      "name_en": "LI, TZU-CHIANG",
+      "category": "投手",
+      "position": "投手",
+      "member_num": 66,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/afccf050-a158-4c07-8097-8c7de2d77cd0.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/7bdb0c8d-1fda-45b5-9fb7-25716dfdb65b.jpg"
+      },
+      "height": "184(CM)",
+      "weight": "80(KG)",
+      "educational_bkgd": "南華大學",
+      "birthday": "1999-12-29"
+    },
+    {
+      "id": 22,
+      "name": "江少慶",
+      "name_en": "CHIANG, SHAO-CHING",
+      "category": "投手",
+      "position": "投手",
+      "member_num": 71,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/9b02ac9d-520f-4697-bcf1-bafdec06d305.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/1d2e2e06-477a-4e49-b524-2c52c9706935.jpg"
+      },
+      "height": "185(CM)",
+      "weight": "95(KG)",
+      "educational_bkgd": "文化大學",
+      "birthday": "1993-11-10"
+    },
+    {
+      "id": 23,
+      "name": "游霆崴",
+      "name_en": "YU,TING-WEI",
+      "category": "投手",
+      "position": "投手",
+      "member_num": 80,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/c52c1557-8953-495e-83a6-dcea03d811ad.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/7d206cad-cbde-4b38-ba6a-d6ca058bd8fc.jpg"
+      },
+      "height": "178(CM)",
+      "weight": "75(KG)",
+      "educational_bkgd": "西苑高中",
+      "birthday": "1997-10-11"
+    },
+    {
+      "id": 24,
+      "name": "陳士朋",
+      "name_en": "CHEN, SHIH-PENG",
+      "category": "投手",
+      "position": "投手",
+      "member_num": 81,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/7e50c6f8-3a1b-4ee1-bde3-89dc5d0f5812.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/09fe1212-a16f-4475-84d2-dd9146aec293.jpg"
+      },
+      "height": "178(CM)",
+      "weight": "87(KG)",
+      "educational_bkgd": "西苑高中",
+      "birthday": "1997-09-20"
+    },
+    {
+      "id": 25,
+      "name": "富藍戈",
+      "name_en": "Enderson Franco",
+      "category": "投手",
+      "position": "投手",
+      "member_num": 87,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/8e813476-5b07-448c-9e4b-85dc2083bff0.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/427d6ebe-82b3-4c33-888f-a18df970e643.jpg"
+      },
+      "height": "188(CM)",
+      "weight": "105(KG)",
+      "educational_bkgd": "",
+      "birthday": "1992-12-29"
+    },
+    {
+      "id": 26,
+      "name": "姚冠瑋",
+      "name_en": "YAO, KUAN-WEI",
+      "category": "捕手",
+      "position": "捕手",
+      "member_num": 10,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/5249836e-4a44-4fb6-933b-118dfcc7f680.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/c0e2bf9d-aac9-4454-b785-f4b3047b06a8.jpg"
+      },
+      "height": "169(CM)",
+      "weight": "79(KG)",
+      "educational_bkgd": "文化大學",
+      "birthday": "1996-01-11"
+    },
+    {
+      "id": 27,
+      "name": "蘇煒智",
+      "name_en": "SU Wei Chih",
+      "category": "捕手",
+      "position": "捕手",
+      "member_num": 26,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/678caa89-bd8f-41e7-a94b-f57c750e84f5.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/c4253846-71c3-41d0-bfc9-1dde5276464d.jpg"
+      },
+      "height": "174(CM)",
+      "weight": "81(KG)",
+      "educational_bkgd": "臺灣體大",
+      "birthday": "1999-04-26"
+    },
+    {
+      "id": 28,
+      "name": "張進德",
+      "name_en": "JHANG,JIN-DE",
+      "category": "捕手",
+      "position": "捕手",
+      "member_num": 69,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/55893730-eead-4efe-be78-3450444bbbb4.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/c440b906-0e5c-463b-ab01-4855e08139b5.jpg"
+      },
+      "height": "178(CM)",
+      "weight": "100(KG)",
+      "educational_bkgd": "國立體大",
+      "birthday": "1993-05-17"
+    },
+    {
+      "id": 29,
+      "name": "戴培峰",
+      "name_en": "TAI, PEI-FENG",
+      "category": "捕手",
+      "position": "捕手",
+      "member_num": 95,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/d4265c1f-6c6c-4701-b9e4-1f676a1dd4df.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/dcc42b78-b302-4818-9726-0eaee30b77c7.jpg"
+      },
+      "height": "179(CM)",
+      "weight": "88(KG)",
+      "educational_bkgd": "平鎮高中",
+      "birthday": "2000-01-07"
+    },
+    {
+      "id": 30,
+      "name": "王勝偉",
+      "name_en": "HARO NGAYAW",
+      "category": "內野手",
+      "position": "內野手",
+      "member_num": 3,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/d6af0879-cf4c-49e1-ab09-054202fb2c3e.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/bdc515fa-f25c-42ee-91e3-18cb9b2e399a.jpg"
+      },
+      "height": "179(CM)",
+      "weight": "82(KG)",
+      "educational_bkgd": "臺灣體院",
+      "birthday": "1984-04-01"
+    },
+    {
+      "id": 31,
+      "name": "葉子霆",
+      "name_en": "YEH,TZU-TING",
+      "category": "內野手",
+      "position": "內野手",
+      "member_num": 6,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/0106b6cf-d4ab-430f-847a-23e09b74eef6.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/4328c833-5825-46f6-ba38-7517a26458ca.jpg"
+      },
+      "height": "170(CM)",
+      "weight": "65(KG)",
+      "educational_bkgd": "國立體大",
+      "birthday": "1998-01-07"
+    },
+    {
+      "id": 32,
+      "name": "蔣智賢",
+      "name_en": "CHIANG, CHIH-HSIEN",
+      "category": "內野手",
+      "position": "內野手",
+      "member_num": 11,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/714ff403-8a8b-43fb-bf1c-9a5c4d100b07.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/73ca0527-9510-4f33-a8ce-bbf2454680fa.jpg"
+      },
+      "height": "184(CM)",
+      "weight": "105(KG)",
+      "educational_bkgd": "三民高中",
+      "birthday": "1988-02-21"
+    },
+    {
+      "id": 33,
+      "name": "王苡丞",
+      "name_en": "WANG,YI-CHENG",
+      "category": "內野手",
+      "position": "內野手",
+      "member_num": 14,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/38cf6506-4ebd-449c-84dd-f87c3bb59e16.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/17e3ec56-8faf-48ae-aa32-6ed1ee1198db.jpg"
+      },
+      "height": "186(CM)",
+      "weight": "91(KG)",
+      "educational_bkgd": "成德高中",
+      "birthday": "2003-05-01"
+    },
+    {
+      "id": 34,
+      "name": "李宗賢",
+      "name_en": "LI, TSUNG-HSIEN",
+      "category": "內野手",
+      "position": "內野手",
+      "member_num": 22,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/d0a86b17-733b-4fbc-a806-6856929a7fcf.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/5284dee6-6a6f-4a9f-9a36-d23d0aed3fa0.jpg"
+      },
+      "height": "175(CM)",
+      "weight": "72(KG)",
+      "educational_bkgd": "國立體大",
+      "birthday": "1994-06-29"
+    },
+    {
+      "id": 35,
+      "name": "王正棠",
+      "name_en": "WANG, CHENG-TANG",
+      "category": "內野手",
+      "position": "內野手",
+      "member_num": 38,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/d7b974bc-e466-431f-a414-8e9983dac825.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/00697a75-6e7d-452a-b258-8e6f6089d63b.jpg"
+      },
+      "height": "175(CM)",
+      "weight": "78(KG)",
+      "educational_bkgd": "臺灣體大",
+      "birthday": "1995-09-17"
+    },
+    {
+      "id": 36,
+      "name": "范國宸",
+      "name_en": "FAN, KUO-CHEN",
+      "category": "內野手",
+      "position": "內野手",
+      "member_num": 46,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/38462d3a-86c8-490f-8341-2bc3328fb05a.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/ff440d6b-ded0-4105-a076-c11f3adc2a9d.jpg"
+      },
+      "height": "184(CM)",
+      "weight": "99(KG)",
+      "educational_bkgd": "臺灣體大",
+      "birthday": "1994-11-25"
+    },
+    {
+      "id": 37,
+      "name": "辛元旭",
+      "name_en": "HSIN, YUAN-HSU",
+      "category": "內野手",
+      "position": "內野手",
+      "member_num": 67,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/e3487295-d1ed-450b-b54f-77b845396b38.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/d3bdb1d7-f3e7-4a3a-b157-31a683403b35.jpg"
+      },
+      "height": "174(CM)",
+      "weight": "88(KG)",
+      "educational_bkgd": "台北市大",
+      "birthday": "1999-06-04"
+    },
+    {
+      "id": 38,
+      "name": "林澤彬",
+      "name_en": "LIN,TSE-BIN",
+      "category": "內野手",
+      "position": "內野手",
+      "member_num": 74,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/4dd885ef-4fd5-4858-8db0-98718256fa7f.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/6d6ed946-182a-42dc-8a50-1acc30ea7b37.jpg"
+      },
+      "height": "177(CM)",
+      "weight": "78(KG)",
+      "educational_bkgd": "高雄大學",
+      "birthday": "1998-12-23"
+    },
+    {
+      "id": 39,
+      "name": "董子恩",
+      "name_en": "TUNG,TZU-EN",
+      "category": "內野手",
+      "position": "內野手",
+      "member_num": 78,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/ab81c44d-de4f-4e9b-9e61-94f88859e959.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/5d324c80-7d2e-4c92-bc33-ded36f340a88.jpg"
+      },
+      "height": "182(CM)",
+      "weight": "81(KG)",
+      "educational_bkgd": "平鎮高中",
+      "birthday": "2003-02-28"
+    },
+    {
+      "id": 40,
+      "name": "劉俊豪",
+      "name_en": "LIU, JUN-HAO",
+      "category": "內野手",
+      "position": "內野手",
+      "member_num": "85",
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/f8613932-b9a4-4432-9be2-189d4a2d83bd.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/57fc22c7-6211-4105-bab4-b5805032de04.jpg"
+      },
+      "height": "179(CM)",
+      "weight": "73(KG)",
+      "educational_bkgd": "國立體大",
+      "birthday": "2002-02-20"
+    },
+    {
+      "id": 41,
+      "name": "池恩齊",
+      "name_en": "CHI,EN-QI",
+      "category": "內野手",
+      "position": "內野手",
+      "member_num": 97,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/93e4d1fb-4eb2-460d-b1b9-7f082f1e2936.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/b99a9e39-7d85-4c06-b1c3-d9f9e910db4b.jpg"
+      },
+      "height": "178(CM)",
+      "weight": "83(KG)",
+      "educational_bkgd": "臺灣體院",
+      "birthday": "1983-01-02"
+    },
+    {
+      "id": 42,
+      "name": "林哲瑄",
+      "name_en": "LIN, CHE-HSUAN",
+      "category": "外野手",
+      "position": "外野手",
+      "member_num": 1,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/4275907c-b7f1-418c-9e3d-6d4c8676cf84.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/5719e553-da40-47b8-a3ca-ba7de6f38047.jpg"
+      },
+      "height": "181(CM)",
+      "weight": "93(KG)",
+      "educational_bkgd": "南英商工",
+      "birthday": "1988-09-21"
+    },
+    {
+      "id": 43,
+      "name": "陳真",
+      "name_en": "CHEN, ZHEN",
+      "category": "外野手",
+      "position": "外野手",
+      "member_num": 7,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/32328780-2149-4086-bc14-5f9d50a9d450.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/577533c0-a009-4c4c-a812-e00d2969b9a6.jpg"
+      },
+      "height": "185(CM)",
+      "weight": "88(KG)",
+      "educational_bkgd": "文化大學",
+      "birthday": "1998-10-22"
+    },
+    {
+      "id": 44,
+      "name": "高國輝",
+      "name_en": " KAO, KUO-HUI",
+      "category": "外野手",
+      "position": "外野手",
+      "member_num": 28,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/997e4d59-c511-4122-b3b1-ee40491a3ba5.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/e4a7f3e9-2da6-4346-b93f-bf6dbff281a5.jpg"
+      },
+      "height": "188(CM)",
+      "weight": "105(KG)",
+      "educational_bkgd": "台北體院",
+      "birthday": "1985-09-26"
+    },
+    {
+      "id": 45,
+      "name": "申皓瑋",
+      "name_en": "SHEN, HAO-WEI",
+      "category": "外野手",
+      "position": "外野手",
+      "member_num": "29",
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/04a2f0f0-c336-4be6-9748-376392781dab.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/db830138-f7cd-42d7-98ba-d7fd70fa737d.jpg"
+      },
+      "height": "183(CM)",
+      "weight": "83(KG)",
+      "educational_bkgd": "高苑工商",
+      "birthday": "1997-09-12"
+    },
+    {
+      "id": 46,
+      "name": "蔡佳諺",
+      "name_en": "TSAI, CHIA-YEN",
+      "category": "外野手",
+      "position": "外野手",
+      "member_num": 65,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/c837f4a3-cb92-4360-a76c-c74f9be51760.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/49fbfe2d-a57d-4fcd-84fa-27a2ddb8d5d0.jpg"
+      },
+      "height": "183(CM)",
+      "weight": "82(KG)",
+      "educational_bkgd": "文化大學",
+      "birthday": "2002-07-09"
+    },
+    {
+      "id": 47,
+      "name": "周佳樂",
+      "name_en": "JHOU, JIA-LE",
+      "category": "外野手",
+      "position": "外野手",
+      "member_num": 77,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/ac7acd5a-7967-4744-be1b-a282d968f6f3.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/ee3471b6-30fb-42ad-b6ac-9c86c1630573.jpg"
+      },
+      "height": "173(CM)",
+      "weight": "72(KG)",
+      "educational_bkgd": "輔仁大學",
+      "birthday": "1999-12-02"
+    },
+    {
+      "id": 48,
+      "name": "孔念恩",
+      "name_en": "KUNG,NIEN-EN",
+      "category": "外野手",
+      "position": "外野手",
+      "member_num": 82,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/0026a8d4-1e36-4052-b104-8f1991da3833.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/1d832b4e-1356-4b7c-a7b5-1456c83d66e4.jpg"
+      },
+      "height": "182(CM)",
+      "weight": "83(KG)",
+      "educational_bkgd": "高苑工商",
+      "birthday": "2003-09-01"
+    },
+    {
+      "id": 49,
+      "name": "高國麟",
+      "name_en": "KAO, KUO-LIN",
+      "category": "外野手",
+      "position": "外野手",
+      "member_num": 98,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/3d5050b3-12a0-4800-be4a-e251b05c95d1.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/a4ce93f2-f611-4d4d-8cd6-078d8b083d11.jpg"
+      },
+      "height": "183(CM)",
+      "weight": "83(KG)",
+      "educational_bkgd": "國立體大",
+      "birthday": "1993-01-02"
+    },
+    {
+      "id": 50,
+      "name": "戴云真",
+      "name_en": "TAI, YUN-CHEN",
+      "category": "外野手",
+      "position": "外野手",
+      "member_num": 13,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/6285df0f-7506-4242-8db1-8e64e4ad8d19.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/bf52ea10-5fe2-4996-a43f-90d07887b346.jpg"
+      },
+      "height": "182(CM)",
+      "weight": "81(KG)",
+      "educational_bkgd": "文化大學",
+      "birthday": "1977-04-20"
+    },
+    {
+      "id": 51,
+      "name": "張宥鈞",
+      "name_en": "CHANG,YU-CHUN",
+      "category": "外野手",
+      "position": "外野手",
+      "member_num": 83,
+      "images": {
+        "show": "https://www.fubonguardians.com/UploadFolder/file/players/9a21ad59-5805-4100-8816-70faa0cfeace.jpg",
+        "index": "https://www.fubonguardians.com/UploadFolder/file/players/21a26c03-8b8d-4039-9a0f-b56f08ac5e92.jpg"
+      },
+      "height": "172(CM)",
+      "weight": "64(KG)",
+      "educational_bkgd": "平鎮高中",
+      "birthday": "2003-02-16"
+    }
+  ]
+}

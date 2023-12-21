@@ -1,30 +1,53 @@
-const mongoose = require('mongoose') // 載入 mongoose
+const bcrypt = require('bcryptjs')
 const Player = require('../player') // 載入 player model
-const player = require('../player')
-// 載入 JSON
-const playerList = require('./player.json').results
-
+const User = require('../users')
+const db = require('../../config/mongoose')
+const SEED_USER = {
+  name: 'SHE',
+  email: 'she@test.com',
+  password: '20010911'
+}
 // 加入這段 code, 僅在非正式環境時, 使用 dotenv
 if (process.env.NODE_ENV !== 'production') {
   require('dotenv').config()
 }
 
-mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true }) // 設定連線到 mongoDB mongoose.connect 是 Mongoose 提供的方法
+// 載入 JSON
+const playerList = require('../../models/seeds/players.json').results
 
-// 取得資料庫連線狀態
-const db = mongoose.connection
-// 連線異常
-db.on('error', () => {
-  console.log('mongodb error!')
-})
+
 // 連線成功
 db.once('open', () => {
-  console.log('mongodb connected!')
-  player.create(playerList)
-    .catch(err => {
-      console.log(err)
+  bcrypt
+    .genSalt(10)
+    .then(salt => bcrypt.hash(SEED_USER.password, salt))
+    .then(hash => User.create({
+      name: SEED_USER.name,
+      email: SEED_USER.email,
+      password: hash
+    }))
+    .then(user => {
+      const userId = user._id
+      // 將 Player 種子數據加入
+      console.log('playerSeeder done!')
+      return Player.create(playerList.map(player => ({ ...player, userId })))
+        .then(() => userId)
     })
-    .finally(() => {
-      db.close()
+    .catch(err => {
+      console.trace(err)
+      process.exit()
     })
 })
+
+
+
+// db.once('open', () => {
+//   console.log('playerSeeder done!')
+//   Player.create(playerList)
+//     .catch(err => {
+//       console.trace(err)
+//     })
+//     .finally(() => {
+//       db.close()
+//     })
+// })

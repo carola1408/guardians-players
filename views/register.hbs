@@ -1,0 +1,34 @@
+<div class="row mt-5">
+  <div class="col-md-6 m-auto">
+    <div class="card card-body">
+      <h1 class="text-center mt-3 text-custom">JOIN 加入會員</h1>
+      {{> message}}
+      <form action="/users/register" method="POST">
+        <div class="mb-3">
+          <label for="name" class="mb-2 text-custom">會員名稱</label>
+          <input type="text" id="name" name="name" class="form-control" placeholder="Enter Name" value="{{ name }}">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="mb-2 text-custom">會員帳號</label>
+          <input type="email" id="email" name="email" class="form-control" placeholder="Enter Email"
+            value="{{ email }}">
+        </div>
+        <div class="mb-3">
+          <label for="password" class="mb-2 text-custom">密碼Password</label>
+          <input type="password" id="password" name="password" class="form-control" placeholder="Enter Password"
+            value="{{ password }}">
+        </div>
+        <div class="mb-3">
+          <label for="confirmPassword" class="mb-2 text-custom">確認密碼 Confirm Password</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" class="form-control"
+            placeholder="Confirm Password" value="{{ confirmPassword }}">
+        </div>
+        <a href="/auth/facebook" class="btn btn-primary btn-block"><i class="fa-brands fa-facebook"></i>Facebook</a>
+        <button type="submit" class="btn btn-primary btn-block">註冊</button>
+      </form>
+      <p class="lead mt-4 text-custom">
+        已是會員 <a href="/users/login">前往登入</a>
+      </p>
+    </div>
+  </div>
+</div>

@@ -1,39 +1,51 @@
+<!-- ./views/layouts/main.handlebars -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>我的富邦球員清單</title>
+  <title>富邦悍將</title>
   <!-- link css files here -->
-
   <link rel="stylesheet" href="/stylesheets/bootstrap.css">
   <link rel="stylesheet" href="/stylesheets/index.css">
   <!-- link fontawesome here -->
   <script src="https://kit.fontawesome.com/4b9e54baaf.js" crossorigin="anonymous"></script>
+
 </head>
 
-
-
 <body>
+  <!-- navigation -->
 
   <header>
-    <!-- navigation -->
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-light bg-light bg-custom">
       <div class="container">
         <a class="navbar-brand" href="/">
           <img src="https://www.brandinlabs.com/wp-content/uploads/2017/01/201612301323318.jpg" width="30" height="30"
-            class="d-inline-block align-top" alt="我的富邦球員清單">
-          我的富邦球員清單
+            class="d-inline-block align-top" alt="富邦悍將">
+          {{#if isAuthenticated}}{{ user.name}}的 {{/if}}
+          富邦悍將
         </a>
-      </div>
-    </nav>
 
+        <!-- 登入/登出按鈕 -->
+        {{#if isAuthenticated}}
+        <a href="/users/logout" class="btn btn-major d-inline-block ml-2">Logout</a>
+        {{else}}
+        <a href="/users/login" class="btn btn-major my-sm-0 my-2">Login</a>
+
+        {{/if}}
+
+
+    </nav>
     <div class="banner"></div>
+
   </header>
-  <!-- partial templates will replace the part of "body" here 把局部樣板的內容都放在這裡顯示-->
-  {{{body}}}
+
+
+
+
+  <!-- partial templates will replace the part of "body" here -->
+  {{{ body }}}
 
   <!-- include javascript files here -->
   <script src="/javascripts/popper.js"></script>

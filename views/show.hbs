@@ -1,0 +1,57 @@
+<!-- ./views/show.handlebars -->
+<div class="container py-5  d-flex justify-content-center">
+  <div class="text-center">
+    <h1 class="mb-4 text-primary">{{players.name}}</h1>
+    <img class="rounded mx-auto d-block mb-4 w-100" src="{{players.images.show}}" alt="{{players.name}}"
+      style="max-width: 600px;">
+    <div class="row  ">
+      <div class="col-12 col-md-10 col-lg-8 mx-auto">
+        <p class="text-primary mb-1" style="font-size: larger;text-align: start;">
+          <strong>背號:</strong>
+          {{players.member_num}}
+        </p>
+
+        <p class="text-primary mb-1" style="font-size: larger;text-align: start;">
+          <strong>英文名字:</strong>
+          {{players.name_en}}
+        </p>
+
+        <p class="text-primary mb-1" style="font-size: larger;text-align: start;">
+          <strong>職位:</strong>
+          {{players.position}}
+        </p>
+
+        <p class="text-primary mb-1" style="font-size: larger;text-align: start;">
+          <strong>身高:</strong>
+          {{players.height}}
+        </p>
+
+        <p class="text-primary mb-1" style="font-size: larger;text-align: start;">
+          <strong>體重:</strong>
+          {{players.weight}}
+        </p>
+
+        <p class="text-primary mb-1" style="font-size: larger;text-align: start;">
+          <strong>學歷:</strong>
+          {{players.educational_bkgd}}
+        </p>
+        <p class="text-primary mb-1" style="font-size: larger;text-align: start;">
+          <strong>生日:</strong>
+          {{formatDate players.birthday}}
+        </p>
+        <a href="/" class="btn btn-info ">back</a>
+        <form action="/players/{{players._id}}?_method=DELETE" method="POST" style="display: inline;">
+          <button class="btn btn-info  ms-2" type="submit">刪除</button>
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+</div>
+
+
+</div>
+</div>

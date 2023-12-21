@@ -1,0 +1,92 @@
+<div class="container mt-5 ">
+  <div class="d-flex justify-content-center">
+    <form action="/players/{{player._id}}?_method=PUT" method="POST" class="font-weight-light">
+      <!-- 球員中文名稱  -->
+      <div class="form-group row">
+        <label for="name" class="col-sm-2 col-form-label">中文名稱</label>
+        <div class="col-sm-10">
+          <input type="text" placeholder="中文名稱" name="name" id="name" value="{{ player.name }}" required>
+        </div>
+      </div>
+      <!-- 球員英文名稱  -->
+      <div class="form-group row">
+        <label for="name_en" class="col-sm-2 col-form-label">英文名稱</label>
+        <div class="col-sm-10">
+          <input type="text" placeholder="英文名稱" name="name_en" id="name_en" value="{{ player.name_en }}">
+        </div>
+      </div>
+      <!-- 球員類別  -->
+      <div class="form-group row">
+        <label for="category" class="col-sm-2 col-form-label">類別</label>
+        <div class="col-sm-10">
+          <input type="text" placeholder="類別" name="category" id="category" value="{{ player.category }}">
+        </div>
+      </div>
+      <!-- 守備類別  -->
+      <div class="form-group row">
+        <label for="position" class="col-sm-2 col-form-label">守備</label>
+        <div class="col-sm-10">
+          <input type="text" placeholder="守備類別" name="position" id="position" value="{{ player.position }}">
+        </div>
+      </div>
+      <!-- 球員背號  -->
+      <div class="form-group row">
+        <label for="member_num" class="col-sm-2 col-form-label">背號</label>
+        <div class="col-sm-10">
+          <input type="text" name="member_num" id="member_num" placeholder="背號" value="{{ player.member_num }}">
+        </div>
+      </div>
+
+      <!-- 球員照片網址  -->
+      <div class="form-group row">
+        <label for="images.show" class="col-sm-2 col-form-label">照片（Show）</label>
+        <div class="col-sm-10">
+          <input type="text" placeholder="Show 網址" name="images.show" id="images.show" value="{{ player.images.show }}">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="images.index" class="col-sm-2 col-form-label">照片（Index）</label>
+        <div class="col-sm-10">
+          <input type="text" placeholder="Index 網址" name="images.index" id="images.index"
+            value="{{ player.images.index }}">
+        </div>
+      </div>
+
+
+      <!-- 球員身高  -->
+      <div class="form-group row">
+        <label for="height" class="col-sm-2 col-form-label">身高</label>
+        <div class="col-sm-10">
+          <input type="text" placeholder="身高" name="height" id="height" value="{{ player.height}}">
+        </div>
+      </div>
+
+      <!-- 球員體重  -->
+      <div class="form-group row">
+        <label for="weight" class="col-sm-2 col-form-label">體重</label>
+        <div class="col-sm-10">
+          <input type="text" placeholder="體重" name="weight" id="weight" value="{{ player.weight}}">
+        </div>
+      </div>
+      <!-- 球員學歷  -->
+      <div class="form-group row">
+        <label for="educational_bkgd" class="col-sm-2 col-form-label">學歷</label>
+        <div class="col-sm-10">
+          <input type="text" placeholder="學歷" name="educational_bkgd" id="educational_bkgd"
+            value="{{ player.educational_bkgd}}">
+        </div>
+      </div>
+      <!-- 球員生日  -->
+      <div class="form-group row">
+        <label for="birthday" class="col-sm-2 col-form-label">生日</label>
+        <div class="col-sm-10">
+          <input type="text" placeholder="生日" name="birthday" id="birthday" value="{{ player.birthday}}">
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-major ">確認送出</button>
+      <a href="/" class="btn btn-info ">返回首頁</a>
+
+    </form>
+  </div>
+</div>
