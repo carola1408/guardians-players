@@ -40,22 +40,23 @@
         <div class="row row-cols-sm-3">
           {{#each players}}
           <div class="col-sm-3">
-            <a href="/{{this.id}}" class="text-secondary">
-              <div class="card mb-2">
-                <img class="card-img-top" src="{{this.images.index}}" alt="{{ this.images.index }}">
-                <div class="card-body player-item-body">
-                  <h4 class="card-number">{{this.member_num}}</h4>
-                  <h4 class="card-name">{{this.name}}</h4>
-                </div>
-                <div class="card-footer d-flex justify-content-end flex-wrap">
-                  <a href="/players/{{this._id}}" class="btn btn-info ms-2">資料</a>
-                  <a href="/players/{{this._id}}/edit" class="btn btn-info ms-2">編輯</a>
-                  <form action="/players/{{this._id}}?_method=DELETE" method="POST" style="display: inline;">
-                    <button class="btn btn-info  ms-2" type="submit">刪除</button>
-                  </form>
-                </div>
+
+            <div class="card mb-2">
+              <img class="card-img-top" src="{{this.images.index}}" alt="{{ this.images.index }}">
+              <div class="card-body player-item-body">
+                <h4 class="card-number">{{this.member_num}}</h4>
+                <h4 class="card-name">{{this.name}}</h4>
               </div>
-            </a>
+
+              <div class="card-footer d-flex justify-content-end flex-wrap">
+                <a href="/players/{{this._id}}" class="btn btn-info ms-2">資料</a>
+                <a href="/players/{{this._id}}/edit" class="btn btn-info ms-2">編輯</a>
+                <form action="/players/{{this._id}}?_method=DELETE" method="POST" style="display: inline;">
+                  <button class="btn btn-info  ms-2" type="submit">刪除</button>
+                </form>
+              </div>
+            </div>
+
           </div>
           {{/each}}
         </div>
