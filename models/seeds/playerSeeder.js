@@ -41,13 +41,3 @@ db.once('open', () => {
 
 
 
-// db.once('open', () => {
-//   console.log('playerSeeder done!')
-//   Player.create(playerList)
-//     .catch(err => {
-//       console.trace(err)
-//     })
-//     .finally(() => {
-//       db.close()
-//     })
-// })
